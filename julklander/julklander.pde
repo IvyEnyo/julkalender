@@ -5,4 +5,6 @@ void setup() {
 
 void draw() {
   
+  //the draw setup for our program
+  
 }
