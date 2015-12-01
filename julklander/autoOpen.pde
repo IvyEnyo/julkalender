@@ -1,0 +1,1 @@
+// Here we should have a method that open the right day every 10 minut 

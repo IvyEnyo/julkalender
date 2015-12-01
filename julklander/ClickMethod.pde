@@ -1,0 +1,2 @@
+/* If you click at one of days at the calender
+it will open and next time you click it close */
