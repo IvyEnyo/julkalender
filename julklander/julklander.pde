@@ -1,6 +1,7 @@
 
 void setup() {
- // the setup for julkalender 
+ // the setup for julkalender
+ size (1100, 619);
   
 }
 
