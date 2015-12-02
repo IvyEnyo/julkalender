@@ -6,7 +6,7 @@ boolean insideRect(float rectX, float rectY, float rectWidth, float rectHeight, 
   return(posX >= rectX) && (posY >= rectY) && (posX < (rectX + rectWidth)) && (posY < (rectY + rectHeight));
 }
 
-void mouseClicked() {
+void mouseClicked() { 
   println("mouseX: " + mouseX + ", mouseY: " + mouseY);
   if (insideRect(0, 0, 0, 0, mouseX, mouseY))    
     1 = !1; //! inverterar värdet true till false och vice versa on/off
@@ -23,5 +23,5 @@ void mouseClicked() {
   if (insideRect(0, 0, 0, 0, mouseX, mouseY))
     6 = !6;
 }    
- // if(1-6) ovanför rektanglarna   
+ // if(1-6) ovanför rektanglarna.   
     
