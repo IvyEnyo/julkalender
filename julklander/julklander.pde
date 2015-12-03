@@ -8,4 +8,5 @@ void setup() {
 void draw() {
   //the draw setup for our program
   rect(100, 100, 100, 100); //Test Hampus
+  //ok
 }
