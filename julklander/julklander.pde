@@ -1,12 +1,17 @@
+PImage bg;
 
 void setup() {
+ bg = loadImage("background3.jpg");
  // the setup for julkalender
- size (1100, 619);
+ size (1000, 563);
+ background(bg);
+ drawCalendar(100, 100);
+ //fullScreen();
   
 }
 
 void draw() {
   //the draw setup for our program
-  rect(100, 100, 100, 100); //Test Hampus
+  drawCalendar(100, 100);
   //ok
 }
