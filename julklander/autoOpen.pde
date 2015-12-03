@@ -20,12 +20,11 @@ void autoOpen(){
  if (((minute() == jga) || (minute() == jgc)) || (minute() == jge))  {
   fill(0);
   rect(20,20,20,20);
-  } else{
-  if(((minute() == jgb) ||(minute() == jgd)) || (minute() == jgf)) {
+  } else if(((minute() == jgb) ||(minute() == jgd)) || (minute() == jgf)) {
     fill(255);
     rect(20,20,20,20);
 
 timer = minute();
-    }
+    
   }
 }
