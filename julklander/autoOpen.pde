@@ -4,23 +4,23 @@ int timer;
 
 void autoOpen(){
 
-  int jga;
-  int jgb;
-  int jgc;
-  int jgd;
-  int jge;
-  int jgf;
-  for(jga=0; jga<=10; jga++)
-  for(jgb=11; jgb<=19; jgb++)
-  for(jgc=20; jgc<=30; jgc++)
-  for(jgd=31; jgd<=39; jgd++)
-  for(jge=40; jge<=50; jge++)
-  for(jgf=51; jgf<=59; jgf++)
+  int oTen;
+  int elevenNineteen;
+  int twentyThirty;
+  int thirtyoneThirtynine;
+  int fortyFifty;
+  int fiftyoneFiftynine;
+  for(oTen=0; oTen<=10; oTen++)
+  for(elevenNineteen=11; elevenNineteen<=19; elevenNineteen++)
+  for(twentyThirty=20; twentyThirty<=30; twentyThirty++)
+  for(thirtyoneThirtynine=31; thirtyoneThirtynine<=39; thirtyoneThirtynine++)
+  for(fortyFifty=40; fortyFifty<=50; fortyFifty++)
+  for(fiftyoneFiftynine=51; fiftyoneFiftynine<=59; fiftyoneFiftynine++)
     
- if (((minute() == jga) || (minute() == jgc)) || (minute() == jge))  {
+ if (((minute() == oTen) || (minute() == twentyThirty)) || (minute() == fortyFifty))  {
   fill(0);
   rect(20,20,20,20); // Ändras för att bilden ska synas
-  } else if(((minute() == jgb) ||(minute() == jgd)) || (minute() == jgf)) {
+  } else if(((minute() == elevenNineteen) ||(minute() == thirtyoneThirtynine)) || (minute() == fiftyoneFiftynine)) {
     fill(255);
     rect(20,20,20,20); // Ändras för att stängas
 
