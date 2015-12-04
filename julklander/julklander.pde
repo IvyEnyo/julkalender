@@ -28,5 +28,5 @@ void draw() {
   background(bg);
   drawCalendar(100, 100);
   snow();
-  //time();
+  autoOpen();
 }

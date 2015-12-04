@@ -4,11 +4,9 @@ int timer;
 
 void autoOpen(){
   if(minute() % 20 < 10){
-    fill(0);
-    rect(200,200,100,100);
+    println("hej");
   } else {
-    fill(255); 
-    rect(200,200,100,100);
+    println("da");
   }
 } 
   /*
@@ -35,4 +33,3 @@ void autoOpen(){
 timer = minute();
     
   } */
-}
