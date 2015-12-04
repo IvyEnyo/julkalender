@@ -1,5 +1,5 @@
 void drawCalendar(int boxHeight, int boxWidth) {
-  
+  fill(255);
   int padding = 10;  // space between the rect
  
   for (int j = 0; j < 4; j++) {
