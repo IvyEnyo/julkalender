@@ -5,7 +5,7 @@ PVector[] snowFlakes;
 
 void setup() {
   size (1000, 563);
-  drawCalendar(100, 100);
+  //drawCalendar(100, 100);
   //fullScreen();
  
   //snow
@@ -28,4 +28,5 @@ void draw() {
   background(bg);
   drawCalendar(100, 100);
   snow();
+  //time();
 }

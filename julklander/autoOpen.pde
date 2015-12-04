@@ -3,7 +3,15 @@
 int timer;
 
 void autoOpen(){
-
+  if(minute() % 20 < 10){
+    fill(0);
+    rect(200,200,100,100);
+  } else {
+    fill(255); 
+    rect(200,200,100,100);
+  }
+} 
+  /*
   int oTen;
   int elevenNineteen;
   int twentyThirty;
@@ -26,5 +34,5 @@ void autoOpen(){
 
 timer = minute();
     
-  }
+  } */
 }
