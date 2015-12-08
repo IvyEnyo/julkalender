@@ -2,6 +2,7 @@ PImage bg;
 PVector snowFlake; 
 PVector[] snowFlakes; 
 
+int padding = 10;  // space between the rect
 
 void setup() {
   size (1920, 1080);
