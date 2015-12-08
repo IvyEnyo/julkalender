@@ -1,3 +1,6 @@
+//This is the dayOpen method.
+//Makes a new rect open each day.
+
 int today=day();
 
 void dayOpen(){
