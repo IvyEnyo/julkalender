@@ -4,7 +4,8 @@ PVector[] snowFlakes;
 
 
 void setup() {
-  size (1000, 563);
+  size (1920, 1080);
+  //size (1000, 563);
   //drawCalendar(100, 100);
   //fullScreen();
  
@@ -25,8 +26,10 @@ void setup() {
 
 void draw() {
   bg = loadImage("background3.jpg");
-  background(bg);
-  drawCalendar(100, 100);
+  //background(bg);
+  drawCalendar(230, 250);
   snow();
   autoOpen();
+  //image(420, 220);//Stor bild
+  //image(220, 110);//En lucka + 250 för varje
 }
