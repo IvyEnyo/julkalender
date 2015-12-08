@@ -1,3 +1,6 @@
+//This is the ClickMethod. 
+//This makes it possible to open rects by clicking on them.
+
 boolean insideRect = false; 
 
 void mouseClicked() {

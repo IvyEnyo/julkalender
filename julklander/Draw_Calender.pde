@@ -1,3 +1,5 @@
+//This is the method that draws the calender.
+
 void drawCalendar(int boxHeight, int boxWidth) {
   fill(246, 0, 0);
   for (int j = 0; j < 4; j++) {
