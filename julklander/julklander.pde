@@ -30,7 +30,7 @@ void draw() {
   //background(bg);
   drawCalendar(230, 250);
   snow();
-  autoOpen();
+  //autoOpen();
   //image(420, 220);//Stor bild
   //image(220, 110);//En lucka + 250 för varje
 }
