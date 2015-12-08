@@ -2,21 +2,19 @@ PImage bg;
 PVector snowFlake; 
 PVector[] snowFlakes; 
 
-int padding = 10;  // space between the rect
+int padding = 10;  // Space between the rects.
 
 void setup() {
   size (1920, 1080);
-  //size (1000, 563);
-  //drawCalendar(100, 100);
-  //fullScreen();
  
-  //snow
+ 
+  //Snowflake
   float xPos = random(0, width); 
   snowFlake = new PVector(); 
   snowFlake.x = xPos; 
   snowFlake.y = 0; 
 
-  // Snowflakes
+  // Makes many Snowflakes
   snowFlakes = new PVector[15]; 
   for(int i = 0; i < snowFlakes.length; i++){
     snowFlakes[i] = new PVector(); 
@@ -26,11 +24,13 @@ void setup() {
 }
 
 void draw() {
+  //Background image
   bg = loadImage("background3.jpg");
-  //background(bg);
+  
+  //Draws the calendar
   drawCalendar(230, 250);
+  
+  // Snow method
   snow();
-  //autoOpen();
-  //image(420, 220);//Stor bild
-  //image(220, 110);//En lucka + 250 för varje
+
 }
