@@ -1,7 +1,7 @@
 //This is all the big images.
 
 PImage m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21, m22, m23;
-PImage [] storArray = new PImage [24];
+PImage [] storArray;
 
 void storImage() {
   m0 = loadImage("stor0.jpg");
@@ -27,5 +27,6 @@ void storImage() {
   m20 = loadImage("stor20.jpg");
   m21 = loadImage("stor21.jpg");
   m22 = loadImage("stor22.jpg");
-  m23 = loadImage("stor23.jpg");  
+  m23 = loadImage("stor23.jpg");
+  storArray = new PImage[] {m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21, m22, m23};
 }
