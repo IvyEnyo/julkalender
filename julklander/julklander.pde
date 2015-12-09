@@ -32,6 +32,7 @@ void draw() {
    
   //Draws the calendar.
   drawCalendar(230, 250);
+
  
   //Draw pictures that has been opened.
   int count = 0; 
@@ -44,8 +45,10 @@ void draw() {
     }
   }
   dayOpen();
+  numbers();
   autoOpen();
   //Snow method.
   snow();
-
+  
+  
 }
