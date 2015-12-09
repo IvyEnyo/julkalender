@@ -27,8 +27,8 @@ void setup() {
 
 void draw() {
   //Background image.
-  //bg = loadImage("background3.jpg");
-  
+  bg = loadImage("baggrund.jpg");
+  background(bg);
    
   //Draws the calendar.
   drawCalendar(230, 250);
