@@ -31,6 +31,17 @@ void draw() {
   //Draws the calendar.
   drawCalendar(230, 250);
   
+  //Draw pictures that has been opened.
+  int count = 0; 
+  for (int j = 0; j < 4; j++) {
+    for (int i = 0; i < 6; i++) {
+      if(openPics[count]){
+        image(litenArray[count], 210 + i * 250 + padding, 100 + j * 230 + padding, 250 - padding, 230 - padding);
+      }
+      count++;
+    }
+  }
+  
   //Snow method.
   snow();
 
