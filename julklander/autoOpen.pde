@@ -3,9 +3,8 @@
 
 void autoOpen(){
   if(minute() % 20 < 10){
-    println("hej");
-  } else {
-    println("da");
+    image(storArray[day() - 1], 420, 250);
   }
-} 
+  //image(storArray[day() - 1], 420, 250);
+}
  
