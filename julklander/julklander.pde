@@ -6,6 +6,8 @@ int padding = 10;  //Space between the rects.
 
 void setup() {
   size (1920, 1080);
+  litenImage(); 
+  storImage();
  
  
   //Snowflake.
@@ -25,23 +27,24 @@ void setup() {
 
 void draw() {
   //Background image.
-  bg = loadImage("background3.jpg");
+  //bg = loadImage("background3.jpg");
   
-  dayOpen();
+   
   //Draws the calendar.
   drawCalendar(230, 250);
-  
+ 
   //Draw pictures that has been opened.
   int count = 0; 
   for (int j = 0; j < 4; j++) {
     for (int i = 0; i < 6; i++) {
       if(openPics[count]){
-        image(litenArray[count], 210 + i * 250 + padding, 100 + j * 230 + padding, 250 - padding, 230 - padding);
+       image(litenArray[count], 210 + i * 250 + padding, 100 + j * 230 + padding, 250 - padding, 230 - padding);
       }
       count++;
     }
   }
-  
+  dayOpen();
+  autoOpen();
   //Snow method.
   snow();
 

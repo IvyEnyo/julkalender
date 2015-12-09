@@ -1,9 +1,10 @@
 //This is all the small images.
 
 PImage p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23;
+//PImage [] litenArray = new PImage [24];
 PImage [] litenArray;
 
-boolean [] openPics = new boolean [] {
+boolean[] openPics = new boolean [] {
   false, false, false, false, false, false,
   false, false, false, false, false, false,
   false, false, false, false, false, false,
@@ -35,5 +36,6 @@ void litenImage() {
   p21 = loadImage("liten21.jpg");
   p22 = loadImage("liten22.jpg");
   p23 = loadImage("liten23.jpg"); 
-  litenArray =  new PImage[] {p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23};
+  
+  litenArray = new PImage[] {p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18, p19, p20, p21, p22, p23};
 }
