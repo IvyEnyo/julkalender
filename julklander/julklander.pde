@@ -27,6 +27,7 @@ void draw() {
   //Background image.
   bg = loadImage("background3.jpg");
   
+  dayOpen();
   //Draws the calendar.
   drawCalendar(230, 250);
   
